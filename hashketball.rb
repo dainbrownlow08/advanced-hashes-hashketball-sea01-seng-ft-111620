@@ -163,7 +163,9 @@ end
 def team_colors(team_name)
   data = game_hash()
   data.each do |home_away, team_data|
-    binding.pry
+    team_data.each do |name_color_players, associated_info|
+      binding.pry
+    end
   end
 end
 
