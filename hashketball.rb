@@ -182,7 +182,7 @@ end
 
 def player_numbers(team_name)
   data = game_hash()
-  data.each do |home_away|
+  data.each do |home_away, team_data|
     binding.pry
   end
   
