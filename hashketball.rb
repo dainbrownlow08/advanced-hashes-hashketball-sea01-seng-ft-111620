@@ -1,3 +1,5 @@
+require 'pry'
+
 # Write your code below game_hash
 
 def game_hash
@@ -127,7 +129,12 @@ def game_hash
   }
 end
 
-#keep going
+def num_points_scored(player)
+  data = game_hash()
+  de
+  
+  
+end
 
 
 
