@@ -210,7 +210,21 @@ def player_stats(player_name)
 end
 
 def big_shoe_rebounds
+  biggest_shoe_size = []
+  data = game_hash()
+  data.each do |home_away, team_data|
+    team_data.each do |name_color_players, associated_info|
+      if name_color_players == :players
+        associated_info.each do |player_stats|
+          binding.pry
+          
+        end
+      end
+    end
+  end
 
+
+end
 
 
 
