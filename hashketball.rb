@@ -131,7 +131,7 @@ end
 
 def num_points_scored(player)
   data = game_hash()
-  de
+  binding.pry
   
   
 end
