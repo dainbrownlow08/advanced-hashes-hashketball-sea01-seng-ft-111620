@@ -180,6 +180,15 @@ def team_names()
   names
 end
 
+def player_numbers(team_name)
+  data = game_hash()
+  data.each do |home_away|
+    binding.pry
+  end
+  
+  
+end
+
 
 
 
