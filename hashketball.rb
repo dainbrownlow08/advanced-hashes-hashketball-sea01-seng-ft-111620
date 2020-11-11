@@ -136,7 +136,7 @@ def num_points_scored(player)
     team_data.each do |name_color_players, associated_info|
       if name_color_players == :players
         associated_info.each do |player_stats|
-          if player_stats[:player_name] == player_name
+          if player_stats[:player_name] == player
             return player_stats[:points]
           end
         end
