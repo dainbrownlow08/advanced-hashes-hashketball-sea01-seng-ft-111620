@@ -172,18 +172,25 @@ def team_colors(team_name)
 end
 
 def team_names()
-  names = []
+  names_array = []
   data = game_hash()
   data.each do |home_away, team_data|
-    names << data[home_away][:team_name]
+    names_array << data[home_away][:team_name]
   end
-  names
+  names_array
 end
 
 def player_numbers(team_name)
+  jersey_number_array = []
   data = game_hash()
   data.each do |home_away, team_data|
-    binding.pry
+    if data[home_away][:team_name] == team_name
+      players = data[home_away][:players]
+      players.each do |name,stats|
+        binding.pry
+      end
+    
+    end
   end
   
   
