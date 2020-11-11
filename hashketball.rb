@@ -186,7 +186,7 @@ def player_numbers(team_name)
   data.each do |home_away, team_data|
     if data[home_away][:team_name] == team_name
       players = data[home_away][:players]
-      players.each do |name,stats|
+      players.each do |player|
         binding.pry
       end
     
