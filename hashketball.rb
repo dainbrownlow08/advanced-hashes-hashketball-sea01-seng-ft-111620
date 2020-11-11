@@ -137,6 +137,7 @@ def num_points_scored(player)
       if name == player 
         return data[team][player][:points]
       end
+    end
   end
 end
 
