@@ -133,8 +133,9 @@ end
 def num_points_scored(player)
   data = game_hash()
   data.each do |home_away, team_data|
-    team_data.each do |this, that|
-      binding.pry
+    team_data.each do |name_color_players, associated_info|
+      if name_color_players == :players
+        x = associated_info
     end
   end
 end
