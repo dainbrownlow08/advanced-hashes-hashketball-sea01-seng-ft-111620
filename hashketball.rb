@@ -223,8 +223,23 @@ def big_shoe_rebounds
       end
     end
   end
+  #found 19
+  data.each do |home_away, team_data|
+    team_data.each do |name_color_players, associated_info|
+      if name_color_players == :players
+        associated_info.each do |player_stats|
+          if player_stats[:shoe] == biggest_shoe_size
+            binding.pry
+          end
+        end
+      end
+    end
+  end
+  
+  
+  
   biggest_shoe_size
-  binding.pry
+  
 end
 
 
