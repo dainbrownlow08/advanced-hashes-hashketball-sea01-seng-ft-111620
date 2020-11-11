@@ -229,17 +229,12 @@ def big_shoe_rebounds
       if name_color_players == :players
         associated_info.each do |player_stats|
           if player_stats[:shoe] == biggest_shoe_size
-            binding.pry
+            return player_stats[:player_name]
           end
         end
       end
     end
   end
-  
-  
-  
-  biggest_shoe_size
-  
 end
 
 
