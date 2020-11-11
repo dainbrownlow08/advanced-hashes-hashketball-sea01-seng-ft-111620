@@ -1,4 +1,4 @@
-require_relative '../hashketball'
+
 require 'pry'
 
 # Write your code below game_hash
