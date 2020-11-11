@@ -177,6 +177,7 @@ def team_names()
   data.each do |home_away, team_data|
     names << data[home_away][:team_name]
   end
+  names
 end
 
 
