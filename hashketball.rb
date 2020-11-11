@@ -1,3 +1,4 @@
+require './hashketball'
 require 'pry'
 
 # Write your code below game_hash
