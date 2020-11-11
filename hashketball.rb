@@ -135,6 +135,7 @@ def num_points_scored(player)
   data.each do |team, attributes|
     attributes.each do |name, stats|
       x = name
+      y = stats
       binding.pry
     end
   end
