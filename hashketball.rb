@@ -187,7 +187,7 @@ def player_numbers(team_name)
     if data[home_away][:team_name] == team_name
       players = data[home_away][:players]
       players.each do |player|
-        jersey_number_array << player[:shoe]
+        binding.pry
       end
     end
   end
