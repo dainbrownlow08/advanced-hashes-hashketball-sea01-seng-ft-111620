@@ -165,7 +165,7 @@ def team_colors(team_name)
   data.each do |home_away, team_data|
     team_data.each do |name_color_players, associated_info|
       if associated_info == team_name
-        return data[home_away]
+        return data[home_away][team_data][:colors]
       end
     end
   end
