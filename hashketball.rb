@@ -201,7 +201,7 @@ def player_stats(player_name)
       if name_color_players == :players
         associated_info.each do |player_stats|
           if player_stats[:player_name] == player_name
-            binding.pry
+            return player_stats
           end
         end
       end
