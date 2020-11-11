@@ -136,7 +136,7 @@ def num_points_scored(player)
       puts data[team][attributes][:players]
     end
   end
-  binding.pry
+  
   
   
 end
