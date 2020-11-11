@@ -1,4 +1,4 @@
-require '../hashketball'
+require './hashketball.rb'
 require 'pry'
 
 # Write your code below game_hash
