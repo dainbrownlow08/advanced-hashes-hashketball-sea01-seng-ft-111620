@@ -160,6 +160,13 @@ def shoe_size(player)
   end
 end
 
+def team_colors(team_name)
+  data = game_hash()
+  data.each do |home_away, team_data|
+    binding.pry
+  end
+end
+
 
 
 
